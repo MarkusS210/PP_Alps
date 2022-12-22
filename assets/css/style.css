@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:cinzel;
+    src: url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:poppins;
+    src: url(../fonts/Poppins/Poppins-Black.ttf);
+}
+
+header section{
+    padding: 25vh 0;
+    background-image: url(../image/Background.avif);
+}
+
+.logo{
+    color: #999;
+    font-size: 30px;
+    padding: 10px 0px 10px 20px;
+    font-weight: 100;
+}
+
+.h2Image h1 {
+    font-family: cinzel;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.mainFont{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.mainFont h3{
+    margin: 60px auto;
+    text-align: center;
+    font-weight: 100;
+    font-family: poppins;
+}
+
+.mainFont p{
+    font-family: poppins;
+    margin: 5px 20px 20px 20px;
+    text-align: center;
+}
+
+.image {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.image img{
+    width: 300px;  
+    margin: 10px; 
+}
+
+
+
